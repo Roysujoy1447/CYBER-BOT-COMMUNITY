@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("fuck")==0 || event.body.indexOf("mc")==0 || event.body.indexOf("chod")==0 || event.body.indexOf("bal")==0 || event.body.indexOf("bc")==0 || event.body.indexOf("maa ki chut")==0 || event.body.indexOf("xod")==0 || event.body.indexOf("behen chod")==0 || event.body.indexOf("🖕")==0 || event.body.indexOf("madarchod")==0 || event.body.indexOf("chudi")==0 || event.body.indexOf("gala gali")==0) {
 		var msg = {
-				body: "(Boss Dk , Gali q Dete Ho. Lund Katke Hath M rakh Dunga)",
+				body: "(𝗚𝗮𝗹𝗶 𝗺𝗮𝘁 𝗱𝗼 😈😈 𝘁𝗲𝗿𝗮 𝗹𝗮𝗻𝗱 𝗸𝗮𝗮𝘁𝗸𝗲 𝘁𝘂𝗺𝗵𝗮𝗿𝗲 𝗵𝗮𝘁𝗵 𝗺𝗲  𝗱𝗲 𝗱𝘂𝗻𝗴𝗶)",
 			}
 			api.sendMessage(msg, threadID, messageID);
 		}
